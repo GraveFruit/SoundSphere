@@ -1,0 +1,6 @@
+0. file structure
+1. menu window
+2. chromium supervisor
+3. settings menu
+4. initializer/installer
+5. updater
