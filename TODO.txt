@@ -1,4 +1,3 @@
-0. file structure
 1. menu window
 2. chromium supervisor
 3. settings menu
