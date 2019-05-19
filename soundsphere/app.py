@@ -11,9 +11,11 @@ __email__ = "jakub.malec@outlook.com"
 __status__ = "Dev"
 
 from Tkinter import *
-from os import *
+import os
 
-BROWSER = "c:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+BROWSER_WINOWS = "\"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe\""
+BROWSER_LINUX = "chromium-browser"
+
 
 class Window(Frame):
     def __init__(self, master=None):
@@ -30,8 +32,8 @@ label.pack()
 app = Window(root)
 root.mainloop()
 
-run_string = BROWSER+" -url "+url+" --kiosk"
+run_string = BROWSER_WINOWS+" -url "+url+" --kiosk"
 
 print (run_string)
 
-#os.system(BROWSER+" -ulr \""+url+"\" --kiosk")
+os.system(run_string)
