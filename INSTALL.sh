@@ -1,6 +1,15 @@
+@Echo off
+
+echo Updating repository list...
 sudo apt-get update -y
+echo Updating existing software...
 sudo apt-get upgrade -y
+echo Installing Chromium...
 sudo apt-get install chromium-browser -y
+echo Installing Python interpreter...
 sudo apt-get install python2.7 -y
-sudo apt-get install python-tk
+echo Installing additional software...
+sudo apt-get install python-tk -y
+
+
 
