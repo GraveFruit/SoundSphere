@@ -11,6 +11,9 @@ __email__ = "jakub.malec@outlook.com"
 __status__ = "Dev"
 
 from Tkinter import *
+from os import *
+
+BROWSER = "c:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
 
 class Window(Frame):
     def __init__(self, master=None):
@@ -18,6 +21,17 @@ class Window(Frame):
         self.master = master
 
 root = Tk()
+
+url = "https://www.soundcraft.com/ui-demo/mixer.html"
+
+label = Label(root, text="Closing this window will cause chrome to run\n"+url)
+label.pack()
+
 app = Window(root)
 root.mainloop()
 
+run_string = BROWSER+" -url "+url+" --kiosk"
+
+print (run_string)
+
+#os.system(BROWSER+" -ulr \""+url+"\" --kiosk")
