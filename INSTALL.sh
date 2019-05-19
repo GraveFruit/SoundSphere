@@ -1,15 +1,13 @@
-@Echo off
-
 echo Updating repository list...
-sudo apt-get update -y
+sudo apt-get update -yqq
 echo Updating existing software...
-sudo apt-get upgrade -y
+sudo apt-get upgrade -yqq
 echo Installing Chromium...
-sudo apt-get install chromium-browser -y
+sudo apt-get install chromium-browser -yqq
 echo Installing Python interpreter...
-sudo apt-get install python2.7 -y
+sudo apt-get install python2.7 -yqq
 echo Installing additional software...
-sudo apt-get install python-tk -y
+sudo apt-get install python-tk -yqq
 
 
 
