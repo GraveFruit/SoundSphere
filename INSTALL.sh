@@ -22,6 +22,6 @@ do
         echo "Installation completed. System reboot in: $i"
         sleep 1
 done
-echo "shutdown -r now"
+sudo shutdown -r now
 
 
