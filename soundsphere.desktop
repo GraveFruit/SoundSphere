@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SoundSphere
+GenericName=SoundSphere
+Comment=Autostart Chromium setup for Soundcraft UI 16
+Exec= python /usr/local/bin/SoundSphere/soundsphere/app.py
+Icon= 
+Terminal=false
+Type=Application
+Categories=
+OnlyShowIn=XFCE;
+
+

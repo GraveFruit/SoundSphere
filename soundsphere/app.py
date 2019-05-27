@@ -32,7 +32,7 @@ label.pack()
 app = Window(root)
 root.mainloop()
 
-run_string = BROWSER_WINOWS+" -url "+url+" --kiosk"
+run_string = BROWSER_LINUX+" -url "+url+" --kiosk"
 
 print (run_string)
 
