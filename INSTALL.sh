@@ -9,6 +9,3 @@ echo Installing Python interpreter...
 sudo apt-get install python2.7 -yqq
 echo Installing additional software...
 sudo apt-get install python-tk -yqq
-
-
-

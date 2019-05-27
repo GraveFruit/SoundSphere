@@ -1,5 +1,4 @@
 1. menu window
 2. chromium supervisor
 3. settings menu
-4. initializer/installer
-5. updater
+4. updater

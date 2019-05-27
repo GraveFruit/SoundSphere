@@ -26,7 +26,7 @@ root = Tk()
 
 url = "https://www.soundcraft.com/ui-demo/mixer.html"
 
-label = Label(root, text="Closing this window will cause chrome to run\n"+url)
+label = Label(root, text="Closing this window\nwill cause Chromium to run:\n"+url)
 label.pack()
 
 app = Window(root)
