@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo Adding autostart...
 sudo mv -f /usr/local/bin/SoundSphere/soundsphere.desktop /etc/xdg/autostart
 
@@ -19,9 +20,10 @@ sudo apt-get install python-tk -yqq
 
 for i in 10 9 8 7 6 5 4 3 2 1
 do
-        echo "Installation completed. System reboot in: $i"
+        echo "Installation completed. System reboot in: $i (CTRL + C to abort)"
         sleep 1
 done
+
 sudo shutdown -r now
 
 
